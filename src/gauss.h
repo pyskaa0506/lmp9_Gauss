@@ -8,5 +8,6 @@
  * Zwraca 1 - macierz osobliwa - dzielenie przez 0
  */
 int eliminate(Matrix *mat, Matrix *b);
+void rozszerzenie_gauss(double **matrix, double *wektor, int size);
 
 #endif
